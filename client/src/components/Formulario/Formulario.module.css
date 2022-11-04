@@ -1,0 +1,176 @@
+.fondoForm {
+    background-image: url('https://s1.1zoom.me/big0/830/Fantastic_world_Battleborn_531776_1280x720.jpg');
+    /* background-image: url('https://territoriomovil.net/wp-content/uploads/2022/07/card-crawl-adventure-release-date.jpg'); */
+    /* background-image: url('https://i.pinimg.com/originals/a0/b9/1d/a0b91dcd5ab54bb509358bbcd797a289.jpg'); */
+    width: 99vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    margin-top: -30px;
+    margin-bottom: -100px;
+}
+
+.h1Form {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(137, 43, 226, 0.555);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.divPlatform {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    width: 80vw;
+    margin: auto;
+    font-family: 'Prompt', sans-serif;
+}
+
+.divGenres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    width: 80vw;
+    margin: auto;
+    font-family: 'Prompt', sans-serif;
+}
+
+.divInputPlatforms {
+    padding: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+.divInputPlatforms input {
+    height: 20px;
+}
+
+.nameForm {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.labelForm {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ratingForm {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 30px;
+    margin-left: -70px;
+}
+
+.descForm {
+    text-align: center;
+    display: flex;
+    margin-left: 820px;
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea {
+    resize: none;
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(137, 43, 226, 0.527);
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.releasedForm {
+    margin-top: 30px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.divlabelPlatforms {
+    background-color: rgba(137, 43, 226, 0.527);
+    width: 80vw;
+    margin-left: 140px;
+}
+
+.divlabelGenres {
+    background-color: rgba(137, 43, 226, 0.527);
+    width: 80vw;
+    margin-left: 140px;
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.platformsForm {
+    /* margin-top: 30px; */
+    font-family: 'Prompt', sans-serif;
+}
+
+.btnFormCreate {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 13, 0.555);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btnFormCreate:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(0, 255, 13);
+}
+
+
+.btnForm {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.555);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btnForm:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+}
+
+.divColumnaPlatforma {
+    background-color: rgba(177, 170, 170, 0.788);
+}
+
+.divColumnaGeneros {
+    background-color: rgba(177, 170, 170, 0.788);
+}
+
+.pErrors {
+    color: red;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 5px 0;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+.inputs {
+    background-color: rgba(137, 43, 226, 0.527);
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}

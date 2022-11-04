@@ -1,0 +1,13 @@
+.divNotFound {
+    text-align:  center;
+    margin: auto;
+}
+
+.h1NotFound {
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: red;
+}

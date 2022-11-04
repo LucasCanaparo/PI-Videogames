@@ -1,0 +1,25 @@
+.divSearchbar {
+    display: inline-block;
+}
+
+.btnSearchbar {
+    border-radius: 5px;
+    background-color: rgb(150, 145, 197);
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.btnSearchbar:hover {
+    transform: scale(1.1);
+    background-color: rgb(55, 78, 179);
+    cursor: pointer;
+}
+
+.inputSearchbar {
+    background-color: rgba(111, 214, 85, 0.678);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}

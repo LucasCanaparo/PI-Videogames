@@ -1,0 +1,69 @@
+.divFondoDetail {
+    background-image: url("https://wallpapercave.com/wp/wp2241818.jpg");
+    width: 99vw;
+    height: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: cover; */
+    background-attachment: fixed;
+    margin-bottom: -30px;
+    top: 0
+}
+
+.h1Detail {
+    background-color: rgba(144, 195, 211, 0.575); 
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+.imgDetail {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.h3Detail {
+    text-align: right;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: rgba(177, 130, 221, 0.849);
+    padding: 5px;
+    display: inline-block;
+}
+
+.descrDetail {
+    background-color: rgba(153, 155, 160, 0.801);
+    padding: 5px;
+    margin: auto;
+    width: 60%;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pDetail {
+    background-color: rgba(177, 130, 221, 0.849);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.btnDetail {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.555);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btnDetail:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+}

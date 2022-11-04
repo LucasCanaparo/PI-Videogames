@@ -1,0 +1,35 @@
+.navPaginacion {
+    text-align: center;
+    padding: 20px;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {
+    display: inline;
+    cursor: pointer;
+}
+
+ul.pagination li a {
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: rgb(150, 145, 197);
+    transition: background-color .3s;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 4px;
+    border-radius: 5px;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: rgb(55, 78, 179);}

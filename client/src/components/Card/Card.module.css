@@ -1,0 +1,21 @@
+.hDetail {
+    font-family: 'Prompt', sans-serif;
+    padding: 5px;
+}
+
+.hTituloDetail {
+    padding: 5px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.divDetail {
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+.imgDetail {
+    max-width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
